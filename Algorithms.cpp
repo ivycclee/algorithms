@@ -1,10 +1,13 @@
 #include <iostream>
 
 // ------------ DECLARATIONS ---------------------
-void BubbleSort(int numArray[], int size);
+// General
 void printArray(int numArray[], int size);
 
+// Sorting algos
+void BubbleSort(int numArray[], int size);
 void SelectionSort(int numArray[], int size);
+void MergeSort(int numArray[], int size);
 
 
 // -------------- DEFINITIONS ------------------------
@@ -56,4 +59,9 @@ void SelectionSort(int numArray[], int size)
             numArray[index] = temp;
         }
     }
+}
+
+void MergeSort(int numArray[], int size)
+{
+    
 }
